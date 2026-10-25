@@ -1,0 +1,16 @@
+{
+  "product": "Vexium Core 1.5B",
+  "version": "1.5b-q4_k_m-v1",
+  "artifact": "vexium-core-1.5b-q4_k_m.gguf",
+  "bytes": 1117320736,
+  "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+  "quantisation": "Q4_K_M",
+  "architecture": "qwen2",
+  "contextLength": 32768,
+  "baseModel": "Qwen2.5-1.5B-Instruct",
+  "publisher": "Alibaba Cloud (Qwen)",
+  "packagedBy": "XiONDiGiTaL",
+  "licence": "Apache-2.0",
+  "source": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/tree/91cad51170dc346986eccefdc2dd33a9da36ead9",
+  "release": "https://github.com/XiONDiGiTaL/Vexium-Core/releases/tag/v1"
+}
