@@ -1,20 +1,30 @@
 Vexium Core
 ===========
 
-This repository redistributes the Qwen2.5-1.5B-Instruct GGUF artifact published
-by Alibaba Cloud under the Apache License 2.0.
+This repository redistributes two GGUF artifacts published by Alibaba Cloud
+(Qwen) under the Apache License 2.0. Neither is retrained, merged or re-quantised
+by XiONDiGiTaL.
 
-  Base model: Qwen2.5-1.5B-Instruct
-  Copyright Alibaba Cloud. Licensed under the Apache License, Version 2.0.
-  https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF
+  Vexium Core 3B  ->  Qwen2.5-3B-Instruct, Q4_K_M
+    Base model: Qwen2.5-3B-Instruct
+    Copyright Alibaba Cloud. Licensed under the Apache License, Version 2.0.
+    https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF
+    Revision: 7dabda4d13d513e3e842b20f0d435c732f172cbe
+    Artifact: qwen2.5-3b-instruct-q4_k_m.gguf
+    SHA-256:  626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d
 
-  Artifact: qwen2.5-1.5b-instruct-q4_k_m.gguf
-  Revision: 91cad51170dc346986eccefdc2dd33a9da36ead9
-  SHA-256:  6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e
+  Vexium Core Light 1.5B  ->  Qwen2.5-1.5B-Instruct, Q4_K_M
+    Base model: Qwen2.5-1.5B-Instruct
+    Copyright Alibaba Cloud. Licensed under the Apache License, Version 2.0.
+    https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF
+    Revision: 91cad51170dc346986eccefdc2dd33a9da36ead9
+    Artifact: qwen2.5-1.5b-instruct-q4_k_m.gguf
+    SHA-256:  6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e
 
 Changes made by XiONDiGiTaL:
-  - the file is renamed to vexium-core-1.5b-q4_k_m.gguf for packaging;
-  - nothing else about the artifact is modified.
+  - the files are renamed to vexium-core-3b-q4_k_m.gguf and
+    vexium-core-1.5b-q4_k_m.gguf for packaging;
+  - nothing else about either artifact is modified.
 
 "Vexium Core" is XiONDiGiTaL's product name for the local model stack shipped
 with Kryvex. It is not an Alibaba Cloud product and is not endorsed by Alibaba

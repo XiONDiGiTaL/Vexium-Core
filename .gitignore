@@ -1,0 +1,9 @@
+# Weights are release assets, never repository content. GitHub also refuses
+# files over 100 MB, so a stray `git add -A` here must not pick them up.
+*.gguf
+*.bin
+*.safetensors
+
+# Release upload scratch output.
+.tmp-*
+*.log
